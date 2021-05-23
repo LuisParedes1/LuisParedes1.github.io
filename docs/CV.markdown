@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum
-permalink: /about/
+relative_url: "https://luisparedes1.github.io/CV/"
 ---
 
 En dispositivo movil acceder [acá](https://luisparedes1.github.io/CV/)
