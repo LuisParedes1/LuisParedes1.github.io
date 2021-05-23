@@ -23,7 +23,9 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%} -->
-          <a class="CV-link" href="https://luisparedes1.github.io/CV/"> Curriculum <img src="/img/CV/favicon.ico"> </a>
+          <a class="GH" href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+          <a class="CV-link" href="https://luisparedes1.github.io/CV/"> <img src="/img/CV/favicon.ico"> CV  </a>
+          
         </div>
       </nav>
     {%- endif -%}
