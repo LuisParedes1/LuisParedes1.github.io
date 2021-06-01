@@ -27,7 +27,7 @@ Y el precio actual de USD en
 * Bolivares Soberanos de Venezuela
 
 # Acceder al bot
- Para acceder al bot puedes buscar en telegram el usuario @criptoL_bot
+ Para acceder al bot puedes buscar en telegram el usuario [@criptoL_bot](http://t.me/criptoL_bot)
 
 # Aclaracion
 El bot lo hostee en [heroku](https://www.heroku.com/) con una cantidad limitada de horas gratuitas por mes; por tanto, si por casualidad no llega a responder seguramente se me acabaron las horas y habrá que esperar unos dias en que se reponga.
