@@ -1,44 +1,25 @@
-# Gradfolio
+# Personal Website
 
-<p align="center">
-<img src="https://snippets.jitin.xyz/assets/img/demo/grad_composite.png" alt="Composite example of the gradfolio theme"/>
-</p>
+This is a simple website which acts as my landing page to showcase my resume and portfolio. This repo is a fork of [gradfolio template](https://github.com/jitinnair1/gradfolio)
 
-responsive, dark-mode ready Jekyll theme designed for use as a personal website and portfolio. [Here's a live demo](https://jitinnair1.github.io/gradfolio/)
+# Local Development
 
-## Preview
+The easy way is to use Bundler to set up and run Jekyll locally. For this, you will need Ruby and Bundler installed for your platform.
 
-<details>
-<summary>Light</summary>
-<img src="https://snippets.jitin.xyz/assets/img/demo/grad_light.png" alt="Preview of gradfolio theme in light mode"/>
-</details>
-<details>
-<summary>Dark</summary>
-<img src="https://snippets.jitin.xyz/assets/img/demo/grad_dark.png" alt="Preview of gradfolio theme in dark mode"/>
-</details>
+After cloning the repo or downloading the source files, open a terminal inside the source folder and run:
 
-## Features
-- Responsive
-- Respects Dark Mode preference set by the user
-- Projects Page to showcase your work/side projects
-- Easily link to your profiles on ResearchGate and ORCID
+`bundle install` to install Jekyll and required plugins
 
-## Installation
-* Fork the repo by using the `Use this template` (somewhere on the top bar) after logging in to your GitHub account
-* Now, in your copy of the repo, [allow workflows to write to your repo](https://github.com/jitinnair1/autoCV/wiki/How-to-use-autoCV:-Detailed-Instructions#step-3-give-the-workflow-write-permissions-for-your-repo-settings---actions---general)
-* You can now modify the contents and personalise the template
+```bundle exec jekyll serve --incremental --trace``` 
 
-Alternatively, you can [download the source files](https://github.com/jitinnair1/gradfolio/archive/master.zip) and [make changes locally](https://github.com/jitinnair1/gradfolio/wiki/Local-Development). 
+to make it available on a local server (typically `http://localhost:4000/`)
 
-## Documentation
-
-Check out the [Wiki](https://github.com/jitinnair1/gradfolio/wiki) for some tips on [publishing to a custom domain](https://github.com/jitinnair1/gradfolio/wiki/Publishing-your-website) or an [indicative list of things to customise before you publish](https://github.com/jitinnair1/gradfolio/wiki/Customising-your-website) 
-
-### Also, check out:
-
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
-- [snippet-book](https://github.com/jitinnair1/snippet-book) -terminal style, clean Jekyll blog theme with catppuccin colours
+The --incremental flag ensures that any changes you make are reflected in your browser in real-time and the --trace option might be useful for debugging if things break while you are changing the source files.
 
 
-PS: If you liked the theme, do star :star: it! Thanks!
+# Running locally with Docker
+
+To test locally with docker, run the following in your terminal after installing docker into your system:
+
+1. `docker image build -t webpage -f Dockerfile .`
+2. `docker run --rm --name webpage -v "$PWD":/home/app -p 4000:4000 webpage`
