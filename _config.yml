@@ -3,8 +3,8 @@
 title: Luis Paredes
 description: Jr ML Engineer & Software Engineer
 
-baseurl: /LuisParedes1
-url: "" #custom url to be used instead of GitHub repository
+baseurl: "/"
+url: "https://LuisParedes1.github.io"
 email: luisjosepr@gmail.com
 
 # Pagination
