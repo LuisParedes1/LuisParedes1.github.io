@@ -50,6 +50,7 @@ collections:
     order:
       - ahorraton.md
       - snap.md
+      - criptobot.md
       # - redirect.md
       # - project4.md
       # - project5.md
