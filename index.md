@@ -19,6 +19,6 @@ I’m continually expanding my skill set, exploring new technologies, and levera
 
 ### Checkout my portfolio:
 
-- [Ahorraton](front-five-plum.vercel.app) - Full-stack web application that compares Argentinian supermarket prices and recommends the most cost-effective store based on a user’s shopping list.
-- [Snap](https://docu-five.vercel.app/) - Twitter like appthe sends and stores tweets, photos, and videos. It can be accessed from the web UI or phone UI.
+- [Ahorraton](./projects/ahorraton/) - Full-stack web application that compares Argentinian supermarket prices and recommends the most cost-effective store based on a user’s shopping list.
+- [Snap](projects/snap/) - Twitter like appthe sends and stores tweets, photos, and videos. It can be accessed from the web UI or phone UI.
 
