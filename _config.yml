@@ -46,7 +46,7 @@ compress_html:
 collections:
   projects:
     output: true
-    permalink: /projects/:name/
+    permalink: /archive_projects/:name/
     order:
       - shortProject.md
       - longerProjectTitle.md
