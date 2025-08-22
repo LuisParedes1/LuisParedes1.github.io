@@ -9,7 +9,7 @@ Criptobot
 
 Bot de telegram diseñado para obtener el precio actual de cripto monedas y divisas de interes.
 
-![demo](image/criptobot_demo.png)
+![demo](./images/criptobot_demo.png)
 
 Obtiene el precio de:
 
