@@ -40,7 +40,8 @@
 .fa-envelope,
 .fa-quora,
 .fa-instagram,
-.fa-stack-overflow {
+.fa-stack-overflow,
+.fa-file {
   font-size: 25px;
 }
 
@@ -147,4 +148,15 @@
   color: #f48024;
   background: #fefefe;
   border-color: #f48024;
+}
+
+.rounded-social-buttons .social-button.cv {
+  background: #d32f2f;
+  color: #ffffff;
+}
+
+.rounded-social-buttons .social-button.cv:hover, .rounded-social-buttons .social-button.cv:focus {
+  background: #ffffff;
+  color: #d32f2f;
+  border-color: #d32f2f;
 }

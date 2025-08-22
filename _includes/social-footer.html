@@ -89,5 +89,14 @@ target="_blank">
 </a>
 {%- endif -%}
 
+{%- if site.cv -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'CV' }}"
+class="social-button cv" itemprop="sameAs"
+href="https://jitinnair1.github.io/autoCV/cv.pdf"
+target="_blank">
+<i class="far fa-file-pdf"></i>
+</a>
+{%- endif -%}
+
 
 </div>

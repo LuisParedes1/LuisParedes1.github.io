@@ -3,19 +3,22 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: profile.png
+  image: avatar.jpg
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+Hi 😊 Welcome to my website.
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+I'm a Jr Machine Learning Engineer and Software Engineer with a passion for building intelligent systems and solving real-world problems through data.
 
-PS: If you liked the theme, do star it on GitHub!
+I’m continually expanding my skill set, exploring new technologies, and leveraging cloud infrastructure to develop scalable, efficient, and impactful solutions.
 
-### Also, check out:
+<!-- <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f16701bc-0361-4453-89eb-33d1e339332b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> -->
 
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+
+### Checkout my portfolio:
+
+- [Ahorraton](front-five-plum.vercel.app) - Full-stack web application that compares Argentinian supermarket prices and recommends the most cost-effective store based on a user’s shopping list.
+- [Snap](https://docu-five.vercel.app/) - Twitter like appthe sends and stores tweets, photos, and videos. It can be accessed from the web UI or phone UI.
+

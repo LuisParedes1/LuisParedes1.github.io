@@ -1,11 +1,11 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: Luis Paredes
+description: Jr ML Engineer & Software Engineer
 
-baseurl: /gradfolio #name of GitHub repository
+baseurl: /LuisParedes1 #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
-email: #
+email: luisjosepr@gmail.com
 
 # Pagination
 paginate: 4
@@ -13,15 +13,16 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+linkedin: "luisjoseparedes/"
+stackoverflow: "15235172"
+github: "LuisParedes1"
+cv: true
+# researchgate: "#"
+# orcid: "#"
+# quora: "#"
+# instagram: "#"
+# facebook: "#"
+# bluesky: "#"
 
 # Markdown
 highlighter: rouge
