@@ -1,29 +1,54 @@
-/* Profile */
-.profile {
+.profile-layout {
+  display: flex;
+  align-items: flex-start; // align top
+  gap: 2rem; // space between content and sidebar
+  margin-bottom: 2rem;
+
+  @include media-query($on-phone) {
+    flex-direction: column; // stack on small screens
+  }
+}
+
+/* Left column: main content */
+.profile-content {
+  flex: 1; // takes remaining width
+}
+
+/* Right column: image + badge */
+.profile-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: right; // center stacked elements
+  width: 33%; // or adjust as needed
+
+  .profile {
     border-style: solid;
     border-color: $light-gray;
+    border-radius: 50%;
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 1rem;
     border-radius: 6px;
     border-radius: 50%;
+    margin-bottom: 1rem;
+    width: 100%; // fills sidebar width
+  }
+
+  .aws-badge-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    justify-content: flex-end;
+    margin-right: 2rem;
+  }
 }
 
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-// adjust tile sizes on smaller screens
+/* Responsive adjustments */
 @include media-query($on-phone) {
-  @media screen and (max-width: $on-phone){
+  .profile-sidebar {
+    width: 100%;
+  }
 
-    .profile {
-      width: 40%;
-    }
-
+  .aws-badge-container {
+    transform: scale(0.8); // optional shrink for mobile
   }
 }

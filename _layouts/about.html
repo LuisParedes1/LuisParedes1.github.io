@@ -3,9 +3,23 @@ layout: default
 ---
 
 {% if page.profile %}
-    {% if page.profile.image %}
-      <img class="profile {{ page.profile.align }}"  width="33.33%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
-    {% endif %}
+  <div class="profile-layout">
+    <div class="profile-content">
+      {{ content }}
+    </div>
+
+    <div class="profile-sidebar">
+      {% if page.profile.image %}
+        <img class="profile {{ page.profile.align }}" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
+      {% endif %}
+
+      <div class="aws-badge-container">
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f16701bc-0361-4453-89eb-33d1e339332b"  data-share-badge-host="https://www.credly.com"></div>
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      </div>
+    </div>
+  </div>
+{% else %}
+  {{ content }}
 {% endif %}
 
-{{ content }}
