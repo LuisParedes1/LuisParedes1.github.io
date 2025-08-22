@@ -14,8 +14,6 @@ I'm a Jr Machine Learning Engineer and Software Engineer with a passion for buil
 
 I’m continually expanding my skill set, exploring new technologies, and leveraging cloud infrastructure to develop scalable, efficient, and impactful solutions.
 
-<!-- <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f16701bc-0361-4453-89eb-33d1e339332b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> -->
-
 
 ### Checkout my portfolio:
 
