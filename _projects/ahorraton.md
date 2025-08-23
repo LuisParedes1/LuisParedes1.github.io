@@ -11,4 +11,4 @@ Full-stack web application that compares Argentinian supermarket prices and reco
 
 # Demo
 
-Checkout [live demo](front-five-plum.vercel.app)
+Checkout [live demo](https://front-five-plum.vercel.app/)
